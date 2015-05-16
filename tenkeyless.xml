@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>Music Controls to Insert, Delete, Home, and End</name>
+        <appendix>* Music Start/Pause to Insert</appendix>
+        <appendix>* Music Prev to Delete</appendix>
+        <appendix>* Music Next to End</appendix>
+        <appendix>* Music Stop to Home</appendix>
+        <identifier>remap.music_controls_for_tenkeyless</identifier>
+        <autogen>__KeyToKey__ KeyCode::PC_INSERT,      ConsumerKeyCode::MUSIC_PLAY</autogen>
+        <autogen>__KeyToKey__ KeyCode::FORWARD_DELETE, ConsumerKeyCode::MUSIC_PREV</autogen>
+        <autogen>__KeyToKey__ KeyCode::END,            ConsumerKeyCode::MUSIC_NEXT</autogen>
+    </item>
+
+    <item>
+        <name>Volume Controls to PageUp, PageDown, and Pause</name>
+        <appendix>* Volume up to Page Up</appendix>
+        <appendix>* Volume down to Page Down</appendix>
+        <appendix>* Volume mute to Pause</appendix>
+        <identifier>remap.volume_controls_for_tenkeyless</identifier>
+        <autogen>__KeyToKey__ KeyCode::PAGEUP,   ConsumerKeyCode::VOLUME_UP</autogen>
+        <autogen>__KeyToKey__ KeyCode::PAGEDOWN, ConsumerKeyCode::VOLUME_DOWN</autogen>
+        <autogen>__KeyToKey__ KeyCode::PC_PAUSE, ConsumerKeyCode::VOLUME_MUTE</autogen>
+    </item>
+</root>
